@@ -1,3 +1,13 @@
+/*The file `qr_code` is a Python script that generates a QR code from user input. Here's a brief explanation of what each line does:
+
+1. **import qrcode**: Imports the `qrcode` module, which is used to generate QR codes.
+2. **text = input("Enter text/URL for QR Code: ")**: Prompts the user to enter the text or URL they want to encode in the QR code.
+3. **qr = qrcode.make(text)**: Creates a QR code from the provided text.
+4. **qr.save("qrcode.png")**: Saves the generated QR code as an image file named `qrcode.png`.
+#5. **print("QR Code Saved!")**: Prints a confirmation message indicating that the QR code has been saved.
+
+This script allows users to create a QR code by simply entering the desired text or URL, and it saves the QR code as an image file.
+*/
 import qrcode
 
 text = input("Enter text/URL for QR Code: ")
