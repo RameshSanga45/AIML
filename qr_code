@@ -3,4 +3,4 @@ import qrcode
 text = input("Enter text/URL for QR Code: ")
 qr = qrcode.make(text)
 qr.save("qrcode.png")
-print("✅ QR Code Saved!")
+print("QR Code Saved!")
